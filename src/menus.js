@@ -617,30 +617,6 @@ const menus = {
 			description: localize("Saves the current palette of colors to a file."),
 		},
 	],
-	[localize("&Help")]: [
-		{
-			label: localize("&Help Topics"),
-			speech_recognition: [
-				"help topics", "help me", "show help", "help", "show help window", "show help topics", "open help",
-				"help viewer", "show help viewer", "open help viewer",
-			],
-			action: () => { show_help(); },
-			description: localize("Displays Help for the current task or command."),
-		},
-		MENU_DIVIDER,
-		{
-			label: localize("&About Paint"),
-			speech_recognition: [
-				"about paint", "about js paint", "about jspaint", "show about window", "open about window", "about window",
-				"app info", "about the app", "app information", "information about the app",
-				"application info", "about the application", "application information", "information about the application",
-				"who made this", "who did this", "who did this xd",
-			],
-			action: () => { show_about_paint(); },
-			description: localize("Displays information about this application."),
-			//description: localize("Displays program information, version number, and copyright."),
-		},
-	],
 };
 
 for (const [top_level_menu_key, menu] of Object.entries(menus)) {
