@@ -1,0 +1,11 @@
+.button-large button {
+  font-size: 1.1em;
+  padding: 0.35em 1.2em;
+  text-decoration: underline;
+}
+
+.nft-button {
+  position: absolute;
+  right: 0.5em;
+  top: 0.25em;
+}

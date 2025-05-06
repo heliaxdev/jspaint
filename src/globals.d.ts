@@ -511,6 +511,7 @@ interface SystemHooks {
 	readBlobFromHandle(fileHandle: UserFileHandle): Promise<Blob | undefined>;
 	setWallpaperTiled(canvas: HTMLCanvasElement): void;
 	setWallpaperCentered(canvas: HTMLCanvasElement): void;
+  onNftSubmit(canvas: HTMLCanvasElement): Promise<void>;
 }
 
 //

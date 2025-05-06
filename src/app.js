@@ -301,6 +301,7 @@ window.systemHookDefaults = {
 			},
 		});
 	},
+	onNftSubmit: async (canvas) => {},
 };
 
 for (const [key, defaultValue] of Object.entries(window.systemHookDefaults)) {
@@ -638,7 +639,7 @@ if ($news_indicator.text().includes("Bubblegum")) {
 // #endregion
 
 $status_text.default = () => {
-	$status_text.text(localize("For Help, click Help Topics on the Help Menu."));
+	$status_text.text(localize("TIP: You can submit your image as an NFT to the Anoma Paint Gallery"));
 };
 $status_text.default();
 
