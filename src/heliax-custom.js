@@ -3,9 +3,7 @@ setTimeout(() => {
 	$nftButton.on("click", () => {
 		const canvas = window.$canvas[0];
 		if (!canvas) return;
-		canvas.toBlob((blob) => {
-			window.systemHooks.onNftSubmit(blob);
-		});
+		window.systemHooks.onNftSubmit(canvas.toDataURL());
 	});
 	window.$bottom.append($nftButton);
 }, 600);
