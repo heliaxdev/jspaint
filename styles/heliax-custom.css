@@ -1,3 +1,92 @@
+body,
+.jspaint .menus *,
+.jspaint .menu-popup *,
+.menu-popup .menu-item,
+.menus *,
+.menu-popup *,
+.jspaint .status-area,
+button,
+input[type="number"].no-spinner,
+.window-content .button-group > button {
+  font-size: 16px;
+  font-family: "MS Sans Serif", sans-serif !important;
+}
+
+.jspaint .menus *,
+.jspaint .menu-popup * {
+  height: 28px;
+  align-items: center;
+}
+
+.window.os-window .window-titlebar,
+.os-window .window-titlebar {
+  font-size: 14px;
+  font-family: "MS Sans Serif", sans-serif !important;
+  background: #060084;
+}
+
+.attributes-window fieldset {
+  margin-top: 8px;
+}
+
+input[type="text"].inset-deep,
+input[type="url"].inset-deep,
+input[type="search"].inset-deep,
+input[type="number"].inset-deep,
+select.inset-deep,
+.window-content {
+  font-family: "MS Sans Serif", sans-serif !important;
+}
+
+.window:not(.edit-colors-window):not(.tracky-mouse-window)
+  .window-content
+  label {
+  align-items: center;
+}
+
+.flip-and-rotate .radio-wrapper {
+  margin-bottom: 4px;
+}
+
+.edit-colors-window .window-content button {
+  height: 32px;
+}
+
+.edit-colors-window .window-content .left-side {
+  height: 315px;
+}
+
+.attributes-window table {
+  margin-bottom: 12px;
+}
+
+.menu-popup .menu-item {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.window.os-window .window-titlebar {
+  height: 26px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.menu-popup .menu-item * {
+  font-size: 16px;
+  height: 28px;
+  align-items: center;
+}
+
+.jspaint .menus > div {
+  padding: 5px 8px;
+}
+
+.jspaint .status-field {
+  height: 28px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .button-large button {
   font-size: 1.1em;
   padding: 0.35em 1.2em;
